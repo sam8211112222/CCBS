@@ -25,7 +25,7 @@ public class ReadAndWriteCPY {
 			FileInputStream fis = new FileInputStream("d:\\si1206\\Desktop\\Test Case\\Test Case First\\CCBS\\Case01\\SB.TESTD.SB52DELO.CCBS20.TEST.cpy");
 			InputStreamReader isr = new InputStreamReader(fis,"UTF-8");
 			BufferedReader br = new BufferedReader(isr);
-			FileOutputStream fos = new FileOutputStream("d:\\si1206\\Desktop\\´ú¸Õ¥Î\\test1.txt");
+			FileOutputStream fos = new FileOutputStream("â€ªd:\\si1206\\Desktop\\æ¸¬è©¦ç”¨\\test1.txt");
 			OutputStreamWriter osw = new OutputStreamWriter(fos,"UTF-8");
 			BufferedWriter bw = new BufferedWriter(osw);
 			PrintWriter pw = new PrintWriter(bw);
